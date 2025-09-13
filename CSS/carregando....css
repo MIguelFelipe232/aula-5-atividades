@@ -1,0 +1,36 @@
+.formatacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carregar{
+    width: 200px;
+    height: 200px;
+    border: 10px solid;
+    border-radius: 100% 100% 100% 100%;
+    border-color: black white black white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: giro;
+    animation-duration: 4s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 50;
+}
+@keyframes giro{
+    0%{
+        rotate: 0deg;
+    }
+    25%{
+        rotate: 90deg;
+    }
+    50%{
+        rotate: 180deg;
+    }
+    75%{
+        rotate: 270deg;
+    }
+    100%{
+        rotate: 360deg;
+    }
+}
