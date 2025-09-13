@@ -1,0 +1,82 @@
+.corpo {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.grafico {
+    height: 1100px;
+    width: 800px;
+    border: 1px solid black;
+    border-top: hidden;
+    border-right: hidden;
+    display: flex;
+    flex-wrap: wrap;
+
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.numeros {
+    height: 1100px;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.comidas {
+    width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.grafico div {
+    width: 70px;
+    animation-name: barras;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+}
+
+.Strogonoff {
+    height: 850px;
+    max-height: 850px;
+    background-color: blue;
+}
+
+.Lasanha {
+    height: 500px;
+    max-height: 500px;
+    background-color: green;
+}
+
+.Churrasco {
+    height: 950px;
+    max-height: 950px;
+    background-color: red;
+}
+
+.Empadão {
+    height: 800px;
+    max-height: 800px;
+    background-color: yellow;
+}
+
+.Jiló {
+    height: 150px;
+    max-height: 150px;
+    background-color: darkcyan;
+}
+
+@keyframes barras {
+    from {
+        height: 0%;
+    }
+
+    to {
+        height: 100%;
+    }
+}
