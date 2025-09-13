@@ -1,0 +1,23 @@
+div{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+img{
+    width: 200px;
+    height: 200px;
+    animation-name: giro;
+    animation-duration: 2s;
+    animation-timing-function: ease-out;
+}
+@keyframes giro{
+    0%{
+        rotate: 0deg;
+    }
+    50%{
+        rotate: 90deg;
+    }
+    100%{
+        rotate: 3600deg;
+    }
+}
